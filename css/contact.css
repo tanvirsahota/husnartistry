@@ -1,0 +1,130 @@
+body html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+meta {
+	display: none;
+}
+
+style {
+	display: none;
+}
+
+@media screen and (max-width: 375px) {
+	 .bg {
+	  background-attachment: scroll;
+	 }
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("img/bride10.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption .border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+
+
+h3 {
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+}
+h3 {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+a {
+	text-decoration: none;
+ 	color: #777
+}
+
+form { 
+	
+	margin: 24px;
+	font-size: 18px;
+}
+
+.form {
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 17px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	max-width: 100%;
+	
+}
+
+
+input {
+	width: 440px;
+	height: 40px;
+	border: 1px solid;
+}
+textarea{
+	border: 1px solid;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  input {
+	  width: 200%;
+	  height: 5%;
+	}
+   .form {
+	  width: 100%
+	  float: none;
+	  }	
+}
+
+
+@media screen and (max-width: 575px) {
+	.p {
+	  width: 550px;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+
